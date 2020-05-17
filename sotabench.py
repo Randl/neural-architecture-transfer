@@ -56,7 +56,7 @@ ImageNet.benchmark(
     paper_model_name='NAT-M1',
     paper_arxiv_id='2005.05859',
     input_transform=input_transform,
-    batch_size=64,
+    batch_size=256,
     num_gpu=1,
     model_description="Official weights from the authors of the paper.",
     paper_results={'Top 1 Accuracy': 0.775, 'Top 5 Accuracy': 0.935}
@@ -84,7 +84,7 @@ ImageNet.benchmark(
     paper_model_name='NAT-M2',
     paper_arxiv_id='2005.05859',
     input_transform=input_transform,
-    batch_size=64,
+    batch_size=256,
     num_gpu=1,
     model_description="Official weights from the authors of the paper.",
     paper_results={'Top 1 Accuracy': 0.786, 'Top 5 Accuracy': 0.943}
@@ -112,7 +112,7 @@ ImageNet.benchmark(
     paper_model_name='NAT-M3',
     paper_arxiv_id='2005.05859',
     input_transform=input_transform,
-    batch_size=32,
+    batch_size=256,
     num_gpu=1,
     model_description="Official weights from the authors of the paper.",
     paper_results={'Top 1 Accuracy': 0.799, 'Top 5 Accuracy': 0.949}
@@ -140,7 +140,7 @@ ImageNet.benchmark(
     paper_model_name='NAT-M4',
     paper_arxiv_id='2005.05859',
     input_transform=input_transform,
-    batch_size=32,
+    batch_size=256,
     num_gpu=1,
     model_description="Official weights from the authors of the paper.",
     paper_results={'Top 1 Accuracy': 0.805, 'Top 5 Accuracy': 0.952}
